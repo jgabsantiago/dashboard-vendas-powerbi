@@ -1,8 +1,8 @@
-Dashboard de Vendas | Projeto Acadêmico de Business Intelligence
+## Dashboard de Vendas | Projeto Acadêmico de Business Intelligence
 
 Projeto de análise de vendas desenvolvido utilizando Python, Pandas, Power BI e DAX, com foco no tratamento de dados, modelagem dimensional e construção de indicadores para análise de desempenho comercial.
 
-Sobre o Projeto
+### Sobre o Projeto
 
 Este dashboard foi desenvolvido inicialmente como parte de um trabalho de Projeto Integrador (PI) do curso de Análise e Desenvolvimento de Sistemas, do Centro Universitário Senac.
 
@@ -12,7 +12,7 @@ A proposta foi aplicar conhecimentos adquiridos durante a graduação, passando 
 
 Após a etapa acadêmica, continuei aprimorando o projeto, realizando ajustes na estrutura dos dados, nos indicadores e na apresentação visual do dashboard.
 
-Minha Trajetória na Área de Dados:
+### Minha Trajetória na Área de Dados
 
 Atualmente, curso Análise e Desenvolvimento de Sistemas e atuo como estagiário na área de Dados.
 
@@ -24,10 +24,9 @@ Ao longo do projeto, pude praticar o tratamento de dados com Python e Pandas, a 
 
 Este repositório faz parte do meu portfólio de estudos e projetos, no qual pretendo registrar minha evolução técnica e as experiências adquiridas durante minha formação.
 
-Natureza do projeto: acadêmico, desenvolvido com dados fictícios para fins educacionais e demonstrativos.
+**Natureza do projeto:** acadêmico, desenvolvido com dados fictícios para fins educacionais e demonstrativos.
 
-
-## Base de Dados
+### Base de Dados
 
 O projeto utiliza uma base fictícia de vendas, com registros referentes ao período de 2020 a 2023.
 
@@ -43,7 +42,7 @@ A base contempla:
 
 Os valores financeiros estão representados em dólares americanos (USD).
 
-## Tratamento e Preparação dos Dados
+### Tratamento e Preparação dos Dados
 
 A preparação dos dados foi realizada utilizando Python e a biblioteca Pandas.
 
@@ -61,28 +60,27 @@ Entre as atividades realizadas, destacam-se:
 
 Essa etapa foi importante para compreender a preparação de dados e sua influência na qualidade das análises.
 
-## Modelagem Dimensional
+### Modelagem Dimensional
 
-No Power BI, os dados foram organizados utilizando uma estrutura de modelo estrela (Star Schema), separando os registros de vendas das informações descritivas.
+No Power BI, os dados foram organizados utilizando uma estrutura de modelo estrela (*Star Schema*), separando os registros de vendas das informações descritivas.
 
 A modelagem foi composta pelas seguintes tabelas:
 
 | Tabela | Finalidade |
 |---|---|
-| Fato_Vendas | Armazena os registros e valores das vendas |
-| Dim_Produtos | Informações dos produtos e suas categorias |
-| Dim_Clientes | Dados cadastrais e geográficos dos clientes |
-| Dim_Promocoes | Informações relacionadas às promoções |
-| Dim_Datas | Calendário utilizado nas análises temporais |
+| `Fato_Vendas` | Armazena os registros e valores das vendas |
+| `Dim_Produtos` | Informações dos produtos e suas categorias |
+| `Dim_Clientes` | Dados cadastrais e geográficos dos clientes |
+| `Dim_Promocoes` | Informações relacionadas às promoções |
+| `Dim_Datas` | Calendário utilizado nas análises temporais |
 
 Os relacionamentos foram configurados no padrão um-para-muitos (1:N), conectando as dimensões à tabela fato.
 
 A utilização desse modelo permitiu organizar as informações para a construção de indicadores e a aplicação de filtros nas análises.
 
+### Indicadores e Medidas DAX
 
-## Indicadores e Medidas DAX
-
-Para acompanhar o desempenho das vendas, foram criadas medidas utilizando a linguagem DAX (Data Analysis Expressions), disponível no Power BI.
+Para acompanhar o desempenho das vendas, foram criadas medidas utilizando a linguagem DAX (*Data Analysis Expressions*), disponível no Power BI.
 
 O dashboard apresenta cinco indicadores principais:
 
@@ -96,7 +94,7 @@ O dashboard apresenta cinco indicadores principais:
 
 Os resultados representam o conjunto completo de dados do projeto, considerando o período de 2020 a 2023, sem aplicação de filtros.
 
-### Lógica dos Indicadores
+#### Lógica dos Indicadores
 
 **Vendas Líquidas:** soma dos valores líquidos registrados nas vendas.
 
@@ -114,8 +112,7 @@ Além dos indicadores principais, foram utilizados cálculos para analisar o per
 
 A construção dessas medidas foi uma oportunidade de praticar conceitos de agregação, contexto de filtro e análise temporal utilizando DAX.
 
-
-## Visualizações e Análises
+### Visualizações e Análises
 
 O dashboard foi desenvolvido no Power BI para reunir indicadores de desempenho comercial e permitir a exploração dos dados por meio de filtros interativos.
 
@@ -143,7 +140,7 @@ Matriz que apresenta a variação percentual das vendas entre anos, com formata�
 
 O relatório conta ainda com filtros por ano e categoria de produto, permitindo analisar diferentes recortes da base.
 
-## Principais Observações
+### Principais Observações
 
 A partir da análise dos dados, foi possível identificar alguns resultados:
 
@@ -154,9 +151,8 @@ A partir da análise dos dados, foi possível identificar alguns resultados:
 
 Essas observações foram obtidas a partir de uma base fictícia e têm finalidade demonstrativa. O foco do trabalho foi praticar a interpretação de indicadores e a apresentação de informações de forma acessível.
 
-## Visualização do Dashboard
-
+### Visualização do Dashboard
 
 A imagem abaixo apresenta o dashboard desenvolvido no Power BI, com indicadores de vendas, lucratividade, desempenho por categoria e análises temporais.
 
-![Dashboard de Vendas](dashboard_vendas_v2_github.png)
+![Dashboard de Vendas](dashboard_vendas_v2_previa_portfolio.png)
