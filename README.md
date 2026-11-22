@@ -156,4 +156,7 @@ Essas observações foram obtidas a partir de uma base fictícia e têm finalida
 
 ## Visualização do Dashboard
 
-A imagem completa do dashboard será disponibilizada nesta seção para apresentar o resultado visual do projeto.
+
+A imagem abaixo apresenta o dashboard desenvolvido no Power BI, com indicadores de vendas, lucratividade, desempenho por categoria e análises temporais.
+
+![Dashboard de Vendas](dashboard_vendas_v2_github.png)
