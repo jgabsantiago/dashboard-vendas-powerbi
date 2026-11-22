@@ -113,3 +113,47 @@ As medidas foram desenvolvidas para responder dinamicamente aos filtros de ano e
 Além dos indicadores principais, foram utilizados cálculos para analisar o percentual acumulado de lucro por categoria e a variação percentual das vendas entre anos.
 
 A construção dessas medidas foi uma oportunidade de praticar conceitos de agregação, contexto de filtro e análise temporal utilizando DAX.
+
+
+## Visualizações e Análises
+
+O dashboard foi desenvolvido no Power BI para reunir indicadores de desempenho comercial e permitir a exploração dos dados por meio de filtros interativos.
+
+As análises foram organizadas em cinco visualizações:
+
+**Evolução Mensal das Vendas**
+
+Gráfico de linhas que apresenta o comportamento das vendas ao longo de 2020 a 2023, permitindo observar variações no faturamento entre os meses.
+
+**Concentração do Lucro por Categoria**
+
+Gráfico combinado baseado na análise de Pareto, apresentando o lucro de cada categoria e seu percentual acumulado. O objetivo é identificar quais grupos de produtos possuem maior participação no resultado financeiro.
+
+**Top 5 Estados por Faturamento**
+
+Comparação dos cinco estados com maior volume de vendas líquidas, utilizando barras horizontais.
+
+**Top 5 Produtos por Unidades Vendidas**
+
+Ranking dos produtos com maior quantidade de unidades comercializadas.
+
+**Variação Anual das Vendas por Categoria**
+
+Matriz que apresenta a variação percentual das vendas entre anos, com formatação condicional para destacar resultados positivos e negativos.
+
+O relatório conta ainda com filtros por ano e categoria de produto, permitindo analisar diferentes recortes da base.
+
+## Principais Observações
+
+A partir da análise dos dados, foi possível identificar alguns resultados:
+
+- A categoria Eletrônicos concentra aproximadamente três quartos do lucro total da base analisada.
+- Madhya Pradesh apresenta o maior faturamento entre os estados do ranking.
+- Apple iPhone 14 lidera o ranking de produtos por unidades vendidas.
+- As categorias apresentam comportamentos diferentes ao longo dos anos, com períodos de crescimento e redução nas vendas.
+
+Essas observações foram obtidas a partir de uma base fictícia e têm finalidade demonstrativa. O foco do trabalho foi praticar a interpretação de indicadores e a apresentação de informações de forma acessível.
+
+## Visualização do Dashboard
+
+A imagem completa do dashboard será disponibilizada nesta seção para apresentar o resultado visual do projeto.
