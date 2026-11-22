@@ -25,3 +25,56 @@ Ao longo do projeto, pude praticar o tratamento de dados com Python e Pandas, a 
 Este repositório faz parte do meu portfólio de estudos e projetos, no qual pretendo registrar minha evolução técnica e as experiências adquiridas durante minha formação.
 
 Natureza do projeto: acadêmico, desenvolvido com dados fictícios para fins educacionais e demonstrativos.
+
+
+## Base de Dados
+
+O projeto utiliza uma base fictícia de vendas, com registros referentes ao período de 2020 a 2023.
+
+Após a preparação dos dados, foram utilizados 3.509 registros de vendas, organizados em um modelo dimensional.
+
+A base contempla:
+
+- 30 produtos, distribuídos em 8 categorias.
+- 50 clientes.
+- Informações de vendas, descontos e lucro.
+- Dados geográficos dos clientes.
+- Histórico de datas e promoções.
+
+Os valores financeiros estão representados em dólares americanos (USD).
+
+## Tratamento e Preparação dos Dados
+
+A preparação dos dados foi realizada utilizando Python e a biblioteca Pandas.
+
+Inicialmente, explorei a estrutura da base para compreender as informações disponíveis e identificar os ajustes necessários antes da utilização no Power BI.
+
+Entre as atividades realizadas, destacam-se:
+
+- Leitura e inspeção dos arquivos CSV.
+- Verificação dos tipos de dados e padronização de campos.
+- Tratamento dos formatos numéricos e de datas.
+- Delimitação do período analisado.
+- Separação das informações em tabelas de fatos e dimensões.
+- Padronização dos nomes dos produtos e categorias para português.
+- Exportação das tabelas tratadas para utilização no Power BI.
+
+Essa etapa foi importante para compreender a preparação de dados e sua influência na qualidade das análises.
+
+## Modelagem Dimensional
+
+No Power BI, os dados foram organizados utilizando uma estrutura de modelo estrela (Star Schema), separando os registros de vendas das informações descritivas.
+
+A modelagem foi composta pelas seguintes tabelas:
+
+| Tabela | Finalidade |
+|---|---|
+| Fato_Vendas | Armazena os registros e valores das vendas |
+| Dim_Produtos | Informações dos produtos e suas categorias |
+| Dim_Clientes | Dados cadastrais e geográficos dos clientes |
+| Dim_Promocoes | Informações relacionadas às promoções |
+| Dim_Datas | Calendário utilizado nas análises temporais |
+
+Os relacionamentos foram configurados no padrão um-para-muitos (1:N), conectando as dimensões à tabela fato.
+
+A utilização desse modelo permitiu organizar as informações para a construção de indicadores e a aplicação de filtros nas análises.
