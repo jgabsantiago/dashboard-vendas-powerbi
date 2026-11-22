@@ -78,3 +78,38 @@ A modelagem foi composta pelas seguintes tabelas:
 Os relacionamentos foram configurados no padrão um-para-muitos (1:N), conectando as dimensões à tabela fato.
 
 A utilização desse modelo permitiu organizar as informações para a construção de indicadores e a aplicação de filtros nas análises.
+
+
+## Indicadores e Medidas DAX
+
+Para acompanhar o desempenho das vendas, foram criadas medidas utilizando a linguagem DAX (Data Analysis Expressions), disponível no Power BI.
+
+O dashboard apresenta cinco indicadores principais:
+
+| Indicador | Resultado | Finalidade |
+|---|---:|---|
+| Vendas Líquidas | US$ 1.397.652,69 | Acompanhar o faturamento após descontos |
+| Lucro Total | US$ 209.647,90 | Identificar o resultado financeiro das vendas |
+| Margem de Lucro | 15,00% | Avaliar a lucratividade em relação às vendas líquidas |
+| Unidades Vendidas | 7.123 | Acompanhar o volume de produtos vendidos |
+| Taxa de Desconto | 5,55% | Medir a proporção dos descontos sobre as vendas brutas |
+
+Os resultados representam o conjunto completo de dados do projeto, considerando o período de 2020 a 2023, sem aplicação de filtros.
+
+### Lógica dos Indicadores
+
+**Vendas Líquidas:** soma dos valores líquidos registrados nas vendas.
+
+**Lucro Total:** soma dos valores de lucro das transações.
+
+**Margem de Lucro:** divisão do lucro total pelas vendas líquidas, expressa em percentual.
+
+**Unidades Vendidas:** soma das quantidades comercializadas.
+
+**Taxa de Desconto:** divisão do valor total concedido em descontos pelo valor total das vendas brutas.
+
+As medidas foram desenvolvidas para responder dinamicamente aos filtros de ano e categoria de produto aplicados no relatório.
+
+Além dos indicadores principais, foram utilizados cálculos para analisar o percentual acumulado de lucro por categoria e a variação percentual das vendas entre anos.
+
+A construção dessas medidas foi uma oportunidade de praticar conceitos de agregação, contexto de filtro e análise temporal utilizando DAX.
