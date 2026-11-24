@@ -156,3 +156,69 @@ Essas observações foram obtidas a partir de uma base fictícia e têm finalida
 A imagem abaixo apresenta o dashboard desenvolvido no Power BI, com indicadores de vendas, lucratividade, desempenho por categoria e análises temporais.
 
 ![Dashboard de Vendas](dashboard_vendas_v2_previa_portfolio.png)
+
+
+### Como Executar o Projeto
+
+O repositório contém os arquivos utilizados na preparação dos dados e no desenvolvimento do dashboard.
+
+**Pré-requisitos**
+
+- Python instalado (versão utilizada no desenvolvimento: 3.14).
+- Biblioteca Pandas.
+- Power BI Desktop para abrir o relatório.
+- Editor de código de sua preferência, como o Visual Studio Code.
+
+**1. Obter os arquivos**
+
+Na página principal do repositório, clique em `Code > Download ZIP` e extraia os arquivos para uma pasta do computador.
+
+**2. Instalar as dependências**
+
+Abra um terminal na pasta principal do projeto e execute:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+**3. Executar o tratamento dos dados**
+
+Na mesma pasta, execute:
+
+```bash
+python analise_inicial.py
+```
+
+O script realiza as etapas de preparação e transformação dos dados e exporta os arquivos CSV utilizados no modelo dimensional.
+
+A estrutura principal do projeto é:
+
+```text
+dashboard-vendas-powerbi/
+│
+├── dados/
+│   ├── Vendas_Base_Consolidada_2.csv
+│   ├── Vendas_2020_2023.csv
+│   └── modelo/
+│       ├── Dim_Clientes.csv
+│       ├── Dim_Datas.csv
+│       ├── Dim_Produtos.csv
+│       ├── Dim_Promocoes.csv
+│       └── Fato_Vendas.csv
+│
+├── analise_inicial.py
+├── requirements.txt
+├── Dashboard_Vendas_V2_Portfolio.pbix
+├── dashboard_vendas_v2_previa_portfolio.png
+└── README.md
+```
+
+**4. Abrir o dashboard**
+
+Abra o arquivo `Dashboard_Vendas_V2_Portfolio.pbix` utilizando o Power BI Desktop.
+
+O relatório contém os indicadores, as medidas DAX, os relacionamentos e as visualizações desenvolvidas.
+
+Caso seja necessário atualizar os dados em outro computador, os caminhos das fontes CSV deverão ser ajustados no Power Query para apontar para a pasta em que os arquivos foram extraídos.
+
+**Observação:** o projeto utiliza dados fictícios e foi desenvolvido para fins acadêmicos e de aprendizado. As instruções descrevem o procedimento de execução, mas a reprodução completa em outro ambiente ainda não foi validada.
