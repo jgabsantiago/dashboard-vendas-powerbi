@@ -1,0 +1,7 @@
+﻿ID da promoção;Nome da promoção;Tipo de anúncio;Código do cupom;Tipo de desconto;Percentual da promoção
+0;Sem promoção;;;;
+PR001;Summer Sale;Email;SUMMER21;20% off;0,2
+PR002;Festive Diwali;Social Media;FESTIVE2022;10% off;0,1
+PR003;New Year Special;Website Banner;NEWYEAR22;Buy 1 Get 1 Free;0,5
+PR004;Weekend Flash Sale;Mobile Push;FLASH50;50% off;0,5
+PR005;Clearance Sale;In-App;CLEARANCE23;70% off;0,7
